@@ -43,7 +43,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Github](https://github.com/aldijoko/project-tracking)
-- Live Site URL: [Live Url](https://your-live-site-url.com)
+- Live Site URL: [Vercel](https://project-tracking-peach-eta.vercel.app/)
 
 ## My process
 
@@ -61,17 +61,14 @@ Use this section to recap over some of your major learnings while working throug
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+document.getElementById('toggle').addEventListener('click', clicked);
+
+function clicked() {
+    if(document.getElementById('menus').style.display = 'flex'){
+        document.getElementById('toggle').style.display = 'none';
+        document.getElementById('close').style.display = 'block';
+    }  
 }
 ```
 
@@ -83,8 +80,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [OnClick Div](https://www.w3schools.com/jsref/event_onclick.asp) - This helped me for how to trigger for onclick div
 
 ## Author
 
